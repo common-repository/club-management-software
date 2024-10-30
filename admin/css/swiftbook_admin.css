@@ -1,0 +1,85 @@
+.tabwrapper .panel{
+    display:none;
+}
+.tabwrapper .panel.active{
+    display:block;
+}
+.small-text{
+    font-size: 11px;
+}
+.sb_setup_nav .justSelect{
+    width: 200px;
+    background: #fff !important;
+}
+.autoresponder-table{
+    width: 100%;
+    background: #fff;
+}
+.autoresponder-table td{
+    border: 1px solid #000;
+}
+.sb_ar_list_id{
+    width: 50px;
+}
+#FrmSBAutoresponder .swiftbook_plus, #FrmSBAutoresponder .swiftbook_min, .payment-delete-btn{
+    cursor: pointer;
+}
+#panel_sb_billing .form-table th{
+    padding-left:10px;
+}
+.ww_hide{
+    display: none;
+}
+.ww_show{
+    display: block;
+}
+.regular-text[readonly]{
+    background: #fff;
+}
+/* email template*/
+.email-template .pull-left{
+    float: left;
+    width: 70%;
+}
+.email-template .pull-right{
+    float: right;
+    width: 29%;
+    padding-left: 10px;
+}
+.email-template .form-table th{
+    width: auto;
+}
+/* /email template*/
+
+/*Notice message*/
+.swiftbook-notice{
+    padding-bottom: 10px;
+}
+.swiftbook-notice .button-green {
+    background-color: #02b000 !important;
+    border-color: #02b000 !important;
+    font-weight: 700;
+    text-shadow: none !important;
+    color:#fff !important;
+}
+.swiftbook-notice .button-green:hover{
+    background-color: #029a00 !important;
+    border-color: #029a00 !important;
+}
+.swiftbook-notice .button-red{
+    text-shadow: none !important;
+    font-weight: 700;
+}
+.swiftbook-notice .button-red:hover {
+    background-color: #dc3232 !important;
+    border-color: #dc3232 !important;
+    color: #fff !important;
+}
+.swiftbook-notice ul {
+    list-style: inside !important;
+    margin-top: 0;
+    padding-left: 10px;
+}
+.swiftbook-notice li {
+    margin-bottom: 3px;
+}

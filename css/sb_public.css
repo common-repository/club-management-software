@@ -1,0 +1,127 @@
+.sb-white-popup {
+    position: relative;
+    background: #FFF;
+    width: auto;
+    margin: 20px auto;
+    padding:10px;
+}
+.white-popup-2 {
+    position: relative;
+    background: #FFF;
+    width: auto;
+    max-width: 1100px;
+    margin: 20px auto;
+}
+
+.mfp-close {
+    top: -18px !important;
+    right: -18px !important;
+    background:url('popup_close.png') !important;
+    width: 36px !important;
+    height: 37px !important;
+    font-size:0px !important;
+    background:transparent;
+}
+.mfp-close:hover, .mfp-close:active, .mfp-close:focus{
+    background:transparent;
+}
+
+/* overlay at start */
+.mfp-fade.mfp-bg {
+    opacity: 0;
+
+    -webkit-transition: all 0.15s ease-out;
+    -moz-transition: all 0.15s ease-out;
+    transition: all 0.15s ease-out;
+}
+/* overlay animate in */
+.mfp-fade.mfp-bg.mfp-ready {
+    opacity: 0.8;
+}
+/* overlay animate out */
+.mfp-fade.mfp-bg.mfp-removing {
+    opacity: 0;
+}
+
+/* content at start */
+.mfp-fade.mfp-wrap .mfp-content {
+    opacity: 0;
+
+    -webkit-transition: all 0.15s ease-out;
+    -moz-transition: all 0.15s ease-out;
+    transition: all 0.15s ease-out;
+}
+/* content animate it */
+.mfp-fade.mfp-wrap.mfp-ready .mfp-content {
+    opacity: 1;
+}
+/* content animate out */
+.mfp-fade.mfp-wrap.mfp-removing .mfp-content {
+    opacity: 0;
+}
+
+.disable-wizard{ 
+    bottom: 9px;
+    position: absolute;
+}
+/********Buy now button shortcode ***********/
+.sb_btn_buynow {
+    background: #196abc none repeat scroll 0 0;
+    color: #fff !important;
+    font-weight: bold;
+    padding: 10px;
+    text-decoration: none;
+}
+.sb_btn_buynow:hover{
+    background: #2186F1 !important;
+    text-decoration: none;
+}
+.sbs_form .sb-input-group{
+    margin-bottom: 15px;
+}
+.sbs_form input[type="text"],
+.sbs_form input[type="email"],
+.sbs_form input[type="password"]{
+    width: 100%;
+    padding: 10px;
+}
+.sbs_form button{
+    padding: 10px;
+}
+
+.swiftbook_notification p.error{
+    border-left: 5px solid red;
+    box-shadow: 0 0 2px -1px rgba(0, 0, 0, 0.5);
+    padding: 5px 0 5px 12px;
+}
+.swiftbook_notification {
+    margin-bottom: 15px;
+    width: 100%;
+}
+.swiftbook_notification p.error{
+    border-left: 5px solid red;
+    box-shadow: 0 0 2px -1px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    margin: 0;
+    color: red;
+}
+.swiftbook_notification p.sucsses{
+    border-left: 5px solid green;
+    box-shadow: 0 0 2px -1px rgba(0, 0, 0, 0.5);
+    color: green;
+    margin: 0;
+    padding: 10px;
+}
+/***/
+@media (max-width: 640px) {
+    .sb-white-popup {
+        max-width: 80%;
+    }
+}
+@media (max-width: 480px) {
+    .sb-white-popup {
+
+        max-width: 80%;
+    }
+    .sb-white-popup iframe{width: 100%;}
+}
